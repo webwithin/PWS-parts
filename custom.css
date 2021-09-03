@@ -710,12 +710,26 @@ p#toolbar-amount {
     display: flex;
     justify-content: flex-end;
 }
+
+
 .page-products .toolbar-products {
     display: flex;
     flex-direction: column;
     justify-content: right;
     align-items: unset;
+    width: 40%;
+    float: right;
 }
+#amasty-shopby-product-list > dl {
+    width: 50%;
+    float: left;
+    padding-top: 12px;
+}
+#amasty-shopby-product-list > div.products.wrapper.grid.products-grid > ol {
+    padding-top: 172px;
+}
+
+
 .page-products .sorter {
     display: flex;
     justify-content: flex-end;
