@@ -723,7 +723,8 @@ body.page-products .search.results {
   float: left;
 }
 .page-products .page-title-wrapper h1 {
-  font-size: 4rem;
+  font-family: "Oswald";
+  font-size: 40px;
   font-weight: 500;
 }
 .page-products .column.main #amasty-shopby-product-list {
@@ -735,7 +736,8 @@ body.page-products .search.results {
   align-items: center;
 }
 .page-products .toolbar-amount {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 1.8rem;
   font-weight: 500;
   padding-bottom: 30px;
@@ -794,9 +796,11 @@ div.toolbar-products .modes {
   justify-content: flex-end;
 }
 p#toolbar-amount {
-  float: right;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-end;
+  font-size: 15px;
+  padding-right: 11px;
 }
 
 .page-products .toolbar-products {
@@ -805,12 +809,14 @@ p#toolbar-amount {
   justify-content: right;
   align-items: unset;
   width: 40%;
-  float: right;
+  margin: 0 auto;
+  padding-right: 70px;
 }
 #amasty-shopby-product-list > dl {
   width: 50%;
   float: left;
   padding-top: 12px;
+  display: none;
   margin-bottom: 0;
 }
 #amasty-shopby-product-list > div.products.wrapper.grid.products-grid > ol {
