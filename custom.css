@@ -796,7 +796,7 @@ div.toolbar-products .modes {
   justify-content: flex-end;
 }
 p#toolbar-amount {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   justify-content: flex-end;
   font-size: 15px;
@@ -819,10 +819,11 @@ p#toolbar-amount {
   display: none;
   margin-bottom: 0;
 }
+/*
 #amasty-shopby-product-list > div.products.wrapper.grid.products-grid > ol {
   padding-top: 190px;
 }
-
+*/
 .page-products .sorter {
   display: flex;
   justify-content: flex-end;
@@ -1705,6 +1706,8 @@ p.footer-social-icons {
   /* Shop */
   .page-products .page-title-wrapper {
     width: 95%;
+    float: unset;
+    display: flex;
   }
   .page-products label.sorter-label {
     padding-right: 10px;
