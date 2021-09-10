@@ -1382,7 +1382,9 @@ body.single-tribe_events .product-item-actions > * {
 @media print {
   h1 {
     margin-bottom: 2cm;
-    color: white;
+  }
+  #clf-print-main-img h1 {
+    text-shadow: 1px 1px #ffffff !important;
   }
   table {
     page-break-before: auto;
@@ -1391,6 +1393,20 @@ body.single-tribe_events .product-item-actions > * {
     page-break-inside: avoid;
     page-break-after: auto;
   }
+  #orderFormSection {
+		display: block !important;
+		float: none !important;
+  }
+  #orderFormSection h2 {
+		display: block !important;
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+	#clf-print-page-break,
+	.elementor-widget-divider {
+    page-break-before: always !important;
+    break-before: page !important;
+	}
 
   @page {
     margin-top: 2cm;
