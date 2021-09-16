@@ -1079,13 +1079,14 @@ body.customer-account-login {
 .amcard-page-product .amcard-preview .main {
   border-top: 6px solid #000;
 }
+/*
 body.product-pws-gift-card
   #product_addtocart_form
   > div.amcard-general-container.-visible
   > div.amcard-form-container.-interior {
   display: none;
 }
-
+*/
 /* Gift Wrapping */
 /* Cart Gift Wrapping Buttion */
 .amwrap-btn.-fill.-active,
