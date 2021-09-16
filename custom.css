@@ -730,11 +730,6 @@ body.page-products .search.results {
 .page-products .column.main #amasty-shopby-product-list {
   margin-top: -70px;
 }
-.page-products .toolbar-products {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .page-products .toolbar-amount {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -788,15 +783,16 @@ body.page-products .search.results {
 .page-products .pages {
   margin-bottom: 20px !important;
 }
+
+/* TOOLBAR 
+ * ------------------------- */
 /* Number of results, sort by, etc */
 div.toolbar-products .modes {
   display: flex;
   float: right;
-  margin-right: 46px;
   justify-content: flex-end;
 }
 p#toolbar-amount {
-  /* margin: 0 auto; */
   display: flex;
   justify-content: flex-end;
   font-size: 15px;
@@ -806,11 +802,12 @@ p#toolbar-amount {
 .page-products .toolbar-products {
   display: flex;
   flex-direction: column;
-  justify-content: right;
-  align-items: unset;
-  width: 40%;
-  margin: 0 auto;
-  padding-right: 70px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: 250px;
+  margin: 0 0 0 auto;
+  padding-right: 0;
 }
 #amasty-shopby-product-list > dl {
   width: 50%;
