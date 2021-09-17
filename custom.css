@@ -1392,19 +1392,19 @@ body.single-tribe_events .product-item-actions > * {
     page-break-after: auto;
   }
   #orderFormSection {
-		display: block !important;
-		float: none !important;
+    display: block !important;
+    float: none !important;
   }
   #orderFormSection h2 {
-		display: block !important;
+    display: block !important;
     page-break-before: always !important;
     break-before: page !important;
   }
-	#clf-print-page-break,
-	.elementor-widget-divider {
+  #clf-print-page-break,
+  .elementor-widget-divider {
     page-break-before: always !important;
     break-before: page !important;
-	}
+  }
 
   @page {
     margin-top: 2cm;
@@ -1670,12 +1670,13 @@ p.footer-social-icons {
     white-space: nowrap;
   }
   header input#search {
-    max-width: 180px;
-    margin-top: 0;
+    max-width: 185px;
+    margin-top: 0-8;
   }
   .block-search input,
   header .clf-header-right {
     margin-bottom: 0;
+    height: 40px;
   }
   .clf-header.header-main {
     display: flex;
