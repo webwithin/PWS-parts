@@ -1591,6 +1591,17 @@ p.footer-social-icons {
 }
 
 @media screen and (max-width: 800px) {
+  body
+    > div.page-wrapper
+    > header
+    > div.header.content
+    > div.clf-header-right
+    > div.block.block-search
+    > div.block.block-content {
+    margin-top: 31px;
+    margin-right: 87px;
+  }
+
   /* Mobile Menu */
 
   .magemenu-menu ul.explodedmenu > li.menu .menu-collapse:before {
@@ -1631,7 +1642,13 @@ p.footer-social-icons {
     display: flex;
     justify-content: center;
     height: 20px;
-    /*background-color: dimgrey;*/
+  }
+  nav#megamenu_2 {
+    z-index: 1000;
+    width: 40px;
+    position: absolute;
+    right: -4px;
+    margin-top: 74px;
   }
   /* End mobile menu */
 
@@ -1664,8 +1681,14 @@ p.footer-social-icons {
     margin-top: -24px;
   }
   ul.header.links {
-    padding-left: 10px;
+    padding-left: 6px;
+    margin-right: -18px;
+    margin-top: -8px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
   }
+
   header .clf-header-right ul li a {
     white-space: nowrap;
   }
