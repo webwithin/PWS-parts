@@ -1591,17 +1591,6 @@ p.footer-social-icons {
 }
 
 @media screen and (max-width: 800px) {
-  body
-    > div.page-wrapper
-    > header
-    > div.header.content
-    > div.clf-header-right
-    > div.block.block-search
-    > div.block.block-content {
-    margin-top: 31px;
-    margin-right: 87px;
-  }
-
   /* Mobile Menu */
 
   .magemenu-menu ul.explodedmenu > li.menu .menu-collapse:before {
@@ -1642,13 +1631,7 @@ p.footer-social-icons {
     display: flex;
     justify-content: center;
     height: 20px;
-  }
-  nav#megamenu_2 {
-    z-index: 1000;
-    width: 40px;
-    position: absolute;
-    right: -4px;
-    margin-top: 74px;
+    /*background-color: dimgrey;*/
   }
   /* End mobile menu */
 
@@ -1659,7 +1642,9 @@ p.footer-social-icons {
 
   /* Header mobile */
   .block-search {
-    margin-top: 0;
+    position: relative;
+    z-index: 2000;
+    top: 60px;
   }
 
   header .clf-header-right ul {
@@ -1668,7 +1653,13 @@ p.footer-social-icons {
     flex-direction: column;
   }
   header .clf-header-right ul li {
-    margin: 0;
+    display: block;
+    position: relative;
+    top: 6px;
+    right: 70px;
+  }
+  form#search_mini_form {
+    border: 1px solid gray;
   }
   header .clf-header-right ul li a {
     white-space: nowrap;
@@ -1681,20 +1672,15 @@ p.footer-social-icons {
     margin-top: -24px;
   }
   ul.header.links {
-    padding-left: 6px;
-    margin-right: -18px;
-    margin-top: -8px;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
+    padding-left: 10px;
   }
-
   header .clf-header-right ul li a {
     white-space: nowrap;
   }
   header input#search {
     max-width: 185px;
     margin-top: 0-8;
+    border: none;
   }
   .block-search input,
   header .clf-header-right {
@@ -1703,20 +1689,23 @@ p.footer-social-icons {
   }
   .clf-header.header-main {
     display: flex;
-    padding-top: 10px;
+    padding-top: 23px;
+  }
+
+  .block-search .action.search {
+    top: 4px;
   }
 
   /* Header mobile logged in */
   ul.header.links {
     padding-left: 6px;
     margin-right: -18px;
-    margin-top: -8px;
+    margin-top: -12px;
   }
 
   .minicart-wrapper {
     display: flex;
     padding-right: 2px;
-    margin-top: 42px;
   }
 
   .minicart-items .product-item-details {
@@ -1793,6 +1782,18 @@ p.footer-social-icons {
     justify-content: center;
   }
 
+  /* Header search form */
+  /*
+  form#search_mini_form input#search {
+    display: none;
+  }
+  form.active#search_mini_form input#search {
+    display: block;
+  }
+*/
+  .elementor-swiper {
+    z-index: 2000;
+  }
   /* Single Pack page */
   .elementor-32362
     .elementor-element.elementor-element-91be398
