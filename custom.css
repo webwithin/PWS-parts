@@ -329,7 +329,32 @@ body.wordpress-post-view
   .ui-dialog-content {
   background: #fff !important;
 }
+/* Mini Cart */
+/*
+div.minicart-wrapper div.ui-dialog {
+  position: absolute;
+  padding: 0.2em;
+  width: 300px;
+  overflow: hidden;
+  right: -62px;
+  background: white;
+  z-index: 10000;
+}
+.block-minicart .items-total {
+  float: left;
+  margin: 0 10px 0 70px;
+}
 
+button#btn-minicart-close {
+  padding-right: 16px;
+}
+
+.block-minicart .block-content > .actions > .primary {
+  margin: 0 10px 15px 10px;
+  width: 230px;
+  padding-left: 85px;
+}
+*/
 /* NAVIGATION
  * --------------------- */
 section.ammenu-menu-wrapper.-desktop.-icons-desktop {
@@ -593,7 +618,8 @@ main#maincontent .column.main h2:first-of-type {
 body.home .product-item-actions > * {
   padding-left: 0 !important;
 }
-div.missing-product > a, span.missing-product-label {
+div.missing-product > a,
+span.missing-product-label {
   pointer-events: none;
 }
 body.home #amasty-shopby-product-list > div > ol > li,
@@ -965,7 +991,14 @@ ol.product-items li .actions-primary input#qty {
 .page-layout-1column .product-info-main {
   width: 60%;
 }
-#maincontent > div.columns > div > div.product-info-main > div.clf-item-attributes > div:nth-child(3) > span > a {
+#maincontent
+  > div.columns
+  > div
+  > div.product-info-main
+  > div.clf-item-attributes
+  > div:nth-child(3)
+  > span
+  > a {
   text-transform: capitalize;
 }
 /*
