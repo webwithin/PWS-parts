@@ -329,32 +329,7 @@ body.wordpress-post-view
   .ui-dialog-content {
   background: #fff !important;
 }
-/* Mini Cart */
-/*
-div.minicart-wrapper div.ui-dialog {
-  position: absolute;
-  padding: 0.2em;
-  width: 300px;
-  overflow: hidden;
-  right: -62px;
-  background: white;
-  z-index: 10000;
-}
-.block-minicart .items-total {
-  float: left;
-  margin: 0 10px 0 70px;
-}
 
-button#btn-minicart-close {
-  padding-right: 16px;
-}
-
-.block-minicart .block-content > .actions > .primary {
-  margin: 0 10px 15px 10px;
-  width: 230px;
-  padding-left: 85px;
-}
-*/
 /* NAVIGATION
  * --------------------- */
 section.ammenu-menu-wrapper.-desktop.-icons-desktop {
@@ -1089,7 +1064,32 @@ div.block-minicart .minicart-items-wrapper {
 div.block-minicart .minicart-items .product-item-name {
   padding-top: 38px;
 }
+/* Mini Cart */
+/*
+div.minicart-wrapper div.ui-dialog {
+  position: absolute;
+  padding: 0.2em;
+  width: 300px;
+  overflow: hidden;
+  right: -62px;
+  background: white;
+  z-index: 10000;
+}
+.block-minicart .items-total {
+  float: left;
+  margin: 0 10px 0 70px;
+}
 
+button#btn-minicart-close {
+  padding-right: 16px;
+}
+
+.block-minicart .block-content > .actions > .primary {
+  margin: 0 10px 15px 10px;
+  width: 230px;
+  padding-left: 85px;
+}
+*/
 /* Login Form */
 body.customer-account-login {
   font-family: "Roboto", sans-serif;
@@ -1361,6 +1361,11 @@ body.single-weekly_offer
   .product-item-inner
   button {
   position: relative;
+}
+
+/* CHECKOUT Page */
+td#label_carrier_amstrates3_amstrates {
+  display: none;
 }
 
 /* EVENT SINGLE PAGE
