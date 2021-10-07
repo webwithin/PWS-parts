@@ -1871,78 +1871,7 @@ p.footer-social-icons {
   }
   p.icons-below-footer {
     display: flex;
-    justify-content: center;<div id="footer-top-line"><hr class="top-footer-bar"></div>
-<div id="footer-columns">
-<div class="footer-column footer-column-1">
-<h2>MY ACCOUNT</h2>
-<br><hr>
-<p class="my-account-footer"><strong><a href="https://pws-staging.clickify.dev/customer/account/login">SIGN IN</a></strong></p>
-<hr>
-<p class="my-account-footer"><a href="https://pws-staging.clickify.dev/customer/account/"><strong>EDIT PROFILE</strong></a></p>
-<hr>
-<p class="my-account-footer"><strong><a href="https://thedrinkslist.com/product/tdl-subscription/" target="_blank" rel="noopener">MY SUBSCRIPTIONS</a></strong></p>
-<hr>
-<p class="my-account-footer"><a href="https://pws-staging.clickify.dev/sales/order/history/"><strong>MY ORDERS</strong></a></p>
-<hr>
-<p class="my-account-footer"><a href="https://pws-staging.clickify.dev/delivery-rates/"><strong>DELIVERY &amp; RATES</strong></a></p>
-<hr></div>
-<div class="footer-column footer-column-2">
-<h2>POPULAR SEARCHES</h2>
-<br>
-<p><a href="https://pws-staging.clickify.dev/liquor.html?cat=1779&amp;region=358">Red Burgundy</a></p>
-<p><a href="https://pws-staging.clickify.dev/liquor.html?cat=1790&amp;region=358">White Burgundy</a></p>
-<p><a href="https://pws-staging.clickify.dev/liquor.html?grape=302%2C303%2C304&amp;region=349">Barossa Shiraz</a></p>
-<p><a href="https://pws-staging.clickify.dev/liquor.html?cat=1742&amp;region=467">Rhone Valley</a></p>
-<p><a href="https://pws-staging.clickify.dev/catalogsearch/result/?q=Barolo">Barolo</a></p>
-<p><a href="https://pws-staging.clickify.dev/liquor.html?cat=1742&amp;region=356">Bordeaux</a></p>
-<p><a href="https://pws-staging.clickify.dev/catalogsearch/result/?q=brunello">Brunello</a></p>
-<p><a href="https://pws-staging.clickify.dev/catalogsearch/result/?q=chianti">Chianti</a></p>
-</div>
-<div class="footer-column footer-column-3"><br><br><br><br>
-<p><a href="https://pws-staging.clickify.dev/liquor.html?cat=1779&amp;price=0-100">Red Wine Under $100</a></p>
-<p><a href="https://pws-staging.clickify.dev/liquor.html?cat=1790&amp;price=0-100">White Wine Under $100</a></p>
-<p><a href="https://pws-staging.clickify.dev/weekly_offer/">Weekly Offers</a></p>
-<p><a href="https://pws-staging.clickify.dev/mixed-dozens/">Mixed Dozens</a></p>
-<p><a href="https://pws-staging.clickify.dev/liquor.html?cat=1742&amp;region=376">Champagne</a></p>
-<p><a href="https://pws-staging.clickify.dev/catalogsearch/result/?q=Glassware">Glassware</a></p>
-<p><a href="https://pws-staging.clickify.dev/pws-gift-card.html">Gift Cards</a></p>
-<p>&nbsp;</p>
-</div>
-<div class="footer-column footer-column-4">
-<p class="footer-social-icons"><a href="https://www.facebook.com/princewinestore/" target="_blank" rel="noopener"><img src="/pub/media/theme_customization/Facebook_gold.svg" width="40px" height="40px"></a> <a href="https://www.instagram.com/princewinestore/" target="_blank" rel="noopener"><img src="/pub/media/theme_customization/Insta_gold.svg" width="40px" height="40px"></a> <a href="https://twitter.com/princewinestore/" target="_blank" rel="noopener"><img src="/pub/media/theme_customization/Twitter_gold.svg" width="40px" height="40px"></a></p>
-<br>
-<p class="footer-addresses footer-addresses-head-1"><strong>Prince Wine Store<br>Melbourne</strong></p>
-<p class="footer-addresses">177 Bank Street</p>
-<p class="footer-addresses">South Melbourne 3205</p>
-<p class="footer-addresses">ph: <a href="tel:+61396863033">03 9686 3033</a><br><br><br></p>
-<p class="footer-addresses"><strong>OPENING HOURS:</strong></p>
-<p class="footer-addresses">Mon to Sat - 10am to 7pm</p>
-</div>
-<div class="footer-column footer-column-5"><br><br><br><br>
-<p class="footer-addresses footer-addresses-head-2"><strong>Prince Wine Store<br>Sydney</strong></p>
-<p class="footer-addresses">40 Hansard Street</p>
-<p class="footer-addresses">(Corner Dunning Ave)</p>
-<p class="footer-addresses">Zetland 2017</p>
-<p class="footer-addresses">ph: <a href="tel:+61296634665">02 9663 4665</a><br><br></p>
-<p class="footer-addresses"><strong>OPENING HOURS:</strong></p>
-<p class="footer-addresses">Mon to Wed - 10am to 6pm</p>
-<p class="footer-addresses">Thurs to Fri - 10am to 8pm</p>
-<p class="footer-addresses">Sat - 10am to 6pm</p>
-</div>
-</div>
-<div id="footer-bottom-line"><hr class="bottom-footer-bar"></div>
-<div id="below-footer-columns" class="row below-footer-columns">
-<div class="below-footer-column below-footer-column-1">
-<p class="icons-below-footer"><img src="/pub/media/theme_customization/Visa.svg" width="80px">&nbsp; <img src="/pub/media/theme_customization/mastercard.svg" width="80px">&nbsp; <img src="/pub/media/theme_customization/Amex.svg" width="80px"></p>
-</div>
-<div class="below-footer-column below-footer-column-2">
-<p class="icons-below-footer1">We accept the following Cards using TLS Security Certificate: Visa, Mastercard and American Express</p>
-<p class="icons-below-footer2">It is against the law to sell or supply alcohol to, or to obtain alcohol on behalf of, a person under the age of 18 years. Liquor License Vic 319 524 38&nbsp; &nbsp;NSW Liquor License LIQP724013283</p>
-</div>
-</div>
-<!--Start of Tawk.to Script-->
-<p>&nbsp;</p>
-<!--End of Tawk.to Script-->
+    justify-content: center;
   }
   .below-footer-column-2 {
     min-width: unset;
