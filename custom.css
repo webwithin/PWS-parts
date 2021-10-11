@@ -1692,6 +1692,8 @@ p.footer-social-icons {
     display: flex;
     font-size: 30px;
     float: right;
+    top: -39px;
+    position: relative;
   }
 
   #mobile_menu_contents a {
@@ -1719,8 +1721,14 @@ p.footer-social-icons {
     position: relative;
     z-index: 2000;
     top: 60px;
+    right: -100px;
   }
-
+  .block-search .control {
+    border-top: unset;
+    clear: both;
+    margin: 0;
+    padding: 0 15px;
+  }
   header .clf-header-right ul {
     display: flex;
     margin: 0;
@@ -1730,7 +1738,7 @@ p.footer-social-icons {
     display: block;
     position: relative;
     top: 6px;
-    right: 70px;
+    right: 24px;
   }
   form#search_mini_form {
     border: 1px solid gray;
@@ -1740,19 +1748,22 @@ p.footer-social-icons {
   }
   .minicart-wrapper {
     display: flex;
-    float: right;
-    flex-direction: column;
-    padding: 0;
-    margin-top: -24px;
+    padding-right: 2px;
+    position: relative;
+    right: 71px;
   }
   ul.header.links {
-    padding-left: 10px;
+    padding-left: 6px;
+    margin-right: -20px;
+    margin-top: -12px;
+    right: 73px;
+    position: relative;
   }
   header .clf-header-right ul li a {
     white-space: nowrap;
   }
   header input#search {
-    max-width: 185px;
+    max-width: 200px;
     border: none;
     /* left: 3000px; */
   }
@@ -1762,14 +1773,24 @@ p.footer-social-icons {
     height: 40px;
   }
   .clf-header.header-main {
-    display: flex;
-    padding-top: 23px;
+    /* display: flex; */
+    padding-top: 0;
+    position: relative;
+    top: -19px;
   }
-
+  .clf-header.header-main {
+    /* display: flex; */
+    padding-top: 0;
+    position: relative;
+    top: -19px;
+  }
   .block-search .action.search {
     top: 4px;
   }
-
+  a.action.showcart {
+    top: -16px;
+    position: relative;
+  }
   /* Header mobile logged in */
   ul.header.links {
     padding-left: 6px;
@@ -1777,6 +1798,15 @@ p.footer-social-icons {
     margin-top: -12px;
   }
 
+  li.customer-welcome > div > ul.header.links {
+    padding-left: 6px;
+    margin-right: -18px;
+    margin-top: -12px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+    z-index: 10000;
+  }
   .minicart-wrapper {
     display: flex;
     padding-right: 2px;
@@ -1906,8 +1936,8 @@ p.footer-social-icons {
     background: transparent;
   }
   form#search_mini_form.active input#search {
-    width: 155px;
-    background: unset;
+    width: 250px;
+    background: white;
   }
   /* Home Page products */
   body.home .product-image-wrapper {
