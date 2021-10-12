@@ -1938,6 +1938,9 @@ p.footer-social-icons {
   form#search_mini_form.active input#search {
     width: 250px;
     background: white;
+    position: absolute;
+    left: -214px;
+    top: -24px;
   }
   /* Home Page products */
   body.home .product-image-wrapper {
