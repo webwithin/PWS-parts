@@ -610,7 +610,7 @@ body.home span.product-image-wrapper {
 } /* There is a media query for this also */
 
 .product-image-photo {
-  margin: 10px auto;
+  margin: 14px auto;
 }
 /*
 span.product-image-wrapper {
@@ -1049,6 +1049,9 @@ div.product.actions .secondary {
 }
 
 /* Minicart images height and overall height */
+#mini-cart img.product-image-photo {
+  padding-left: 21px;
+}
 div.block-minicart span.product-image-wrapper {
   height: 220px !important;
 }
@@ -1261,6 +1264,12 @@ body.single-weekly_offer
   .product-item-info
   a.photo {
   width: 50%;
+}
+div.clf-product-description-special > p > span {
+  color: #333 !important;
+}
+body.single-weekly_offer a.product.photo.product-item-photo {
+  margin-right: 20px;
 }
 body.single-special_offers .products-grid .product-item .product-image-wrapper,
 body.single-weekly_offer .products-grid .product-item .product-image-wrapper {
@@ -1638,6 +1647,20 @@ p.footer-social-icons {
   body.single-qdos_producer .product-items .product-item {
     width: auto;
   }
+  body.single-tribe_events
+    .elementor-17561
+    .elementor-element.elementor-element-3386f4a9 {
+    margin: 0;
+  }
+  body.single-tribe_events .columns .column.main {
+    padding-bottom: 0;
+  }
+  body.single-tribe_events .elementor-widget-container {
+    padding: 10px 30px 0px 30px !important;
+  }
+  body.single-tribe_events .elementor-spacer-inner {
+    height: 0px;
+  }
 }
 @media screen and (min-width: 800px) {
   body.page-with-filter.page-products .page.messages {
@@ -1981,6 +2004,18 @@ p.footer-social-icons {
   body.single-mixed_dozen .price-box.price-final_price {
     margin-bottom: 10px !important;
     padding-top: 20px;
+  }
+
+  /* Weekly Offer */
+  body.single-weekly_offer .products-grid .product-item .product-image-wrapper {
+    padding-bottom: 100% !important;
+  }
+  body.single-weekly_offer .products-grid .product-item-info .price-box,
+  body.single-weekly_offer .products-grid .product-item-info .price-box {
+    margin-bottom: 20px;
+  }
+  body.single-weekly_offer a.product.photo.product-item-photo {
+    margin-right: unset;
   }
 }
 
