@@ -417,7 +417,7 @@ nav.nav-magemenu-menu div.magemenu-menu {
 }
 /* prevent slider elements from displaying over menu when it's dropped down */
 nav#megamenu_2 {
-  z-index: 1000;
+  z-index: 3;
 }
 
 /* Magenest mega menu - may be temporary */
@@ -502,6 +502,21 @@ div#hamburger_div {
 .filter .am-category-wrapper li[data-label="Product Line"],
 .filter .am-category-wrapper li[data-label="Category List"] {
   display: none !important;
+}
+
+/* TOP SEARCH 
+ * --------------------- */
+.search-autocomplete,
+.search-autocomplete ul,
+.search-autocomplete ul li {
+	z-index: 99999 !important;
+}
+.search-autocomplete ul {
+	flex-wrap: wrap !important;
+}
+.search-autocomplete ul li {
+	right: 0 !important;
+	position: relative !important;
 }
 
 /* MAIN CONTENT
@@ -1950,7 +1965,7 @@ p.footer-social-icons {
   /* Deliverty Rates page */
   body.page-id-6044 .columns .column.main {
     padding-bottom: 0;
-}
+	}
 
   /* Footer */
   div.footer-column-5 {
@@ -1970,6 +1985,15 @@ p.footer-social-icons {
     max-width: unset;
     width: 95%;
   }
+}
+
+@media screen and (max-width: 767px) {
+		.search-autocomplete {
+				right: 0 !important;
+		}
+		.search-autocomplete ul li {
+				right: 0 !important;
+		}
 }
 
 @media screen and (max-width: 639px) {
