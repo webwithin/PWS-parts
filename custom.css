@@ -802,6 +802,19 @@ body.page-products .search.results {
   margin-bottom: 20px !important;
 }
 
+/* Compare */
+th.cell.label.remove {
+  width: 40px;
+}
+.table-comparison .cell.product.info,
+.table-comparison .cell.product.label,
+td.cell.product.attribute {
+  border-right: 1px solid #cccccc;
+}
+#product-comparison div > p > span {
+  color: #333 !important;
+}
+
 /* TOOLBAR 
  * ------------------------- */
 /* Number of results, sort by, etc */
@@ -1690,6 +1703,14 @@ p.footer-social-icons {
     right: 303px;
     position: relative;
   }
+  /* Compare page - reduce empty space under images */
+  body.catalog-product_compare-index span.product-image-wrapper {
+    padding-bottom: 40% !important;
+  }
+  /* Product lists - bring content down a bit from main nav */
+  body.page-with-filter.page-products .web-landing-desc {
+    padding-top: 40px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -2028,7 +2049,10 @@ p.footer-social-icons {
   }
 
   /* Above Footer on specific pages */
-  body.page-id-6033 .columns .column.main, body.page-id-6029 .columns .column.main, body.page-id-6040 .columns .column.main, body.page-id-6248 .columns .column.main {
+  body.page-id-6033 .columns .column.main,
+  body.page-id-6029 .columns .column.main,
+  body.page-id-6040 .columns .column.main,
+  body.page-id-6248 .columns .column.main {
     padding-bottom: 0;
   }
 
@@ -2144,6 +2168,28 @@ p.footer-social-icons {
   }
   body.single-weekly_offer a.product.photo.product-item-photo {
     margin-right: unset;
+  }
+  body.single-special_offers
+    .products-grid
+    .product-item
+    .product-image-wrapper {
+    padding-bottom: 160% !important;
+    width: 110px !important;
+  }
+  body.single-special_offers .product-item-name > a {
+    font-size: 20px;
+  }
+  body.single-special_offers
+    .products-grid
+    strong.product.name.product-item-name {
+    height: 105px;
+  }
+  body.single-special_offers .products-grid .product-item-info .price-box,
+  body.single-special_offers .products-grid .product-item-info .price-box {
+    margin-bottom: 24px;
+  }
+  strong.product.name.product-item-name {
+    height: 60px;
   }
 }
 
